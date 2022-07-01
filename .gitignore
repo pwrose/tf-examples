@@ -112,3 +112,5 @@ config.yml
 
 # tf-examples 
 notebooks/models
+notebooks/tmp
+notebooks/weights_from_feature_extract
