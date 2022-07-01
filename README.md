@@ -59,7 +59,7 @@ galyleo launch --account <account_number> --partition shared --cpus 10 --memory 
 
 3. Run on GPU using a Conda Environment
 ```
-galyleo launch --account <account_number> --partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 01:00:00 --conda-env tf-examples-gpu --conda-yml "${HOME}/tf-examples/environment-gpu.yml" --mamba --quite
+galyleo launch --account <account_number> --partition gpu-shared --cpus 10 --memory 92 --gpus 1 --time-limit 01:00:00 --conda-env tf-examples-gpu --conda-yml "${HOME}/tf-examples/environment-gpu.yml" --mamba --quiet
 ```
 
 4. Run on GPU using a Singularity Container
